@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/BR_Firma_Bold.otf",
+      "sha1": "b1a2376df1651679d1cc1712e42cc3b1d29b218f"
+    },
+    {
+      "path": "src/assets/fonts/BR_Firma_Medium.otf",
+      "sha1": "50decf822e5f3e8a755f35f13f19704ed9b4ee3b"
+    },
+    {
+      "path": "src/assets/fonts/BR_Firma_Regular.otf",
+      "sha1": "927028f040014613b93f698eebaa54a946e256dc"
+    },
+    {
+      "path": "src/assets/fonts/Bozon_Bold.otf",
+      "sha1": "69f9d83b6ce3e331c6b909cdab253743221bbed8"
+    },
+    {
+      "path": "src/assets/fonts/Bozon_Demi_Bold.otf",
+      "sha1": "795f52ec775e60726b360d1b588f569acc0aabe9"
+    },
+    {
+      "path": "src/assets/fonts/Bozon_Regular.otf",
+      "sha1": "ece63b5126da0b42b6e501c2e46f3de41c75d1f3"
+    },
+    {
+      "path": "src/assets/fonts/icomoon.ttf",
+      "sha1": "fe8923c5ac1d2412c6afa921e7127e2828f47298"
+    }
+  ]
+}
