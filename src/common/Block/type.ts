@@ -1,9 +1,14 @@
-import { StyleProp, ViewProps, ViewStyle } from "react-native";
+import { FlexStyle, StyleProp, ViewProps, ViewStyle } from "react-native";
 
 export interface IBlock extends ViewProps {
     children?: React.ReactNode;
+
+    height?: ViewStyle['height'];
+    width?: ViewStyle['width'];
+
     flex?: ViewStyle['flex'];
-    row?: ViewStyle['flexDirection'];
+    alignSelf?: FlexStyle['alignSelf'];
+    row?: boolean;
     color?: ViewStyle['backgroundColor'];
     align?: ViewStyle['alignItems'];
     justify?: ViewStyle['justifyContent'];
@@ -23,5 +28,20 @@ export interface IBlock extends ViewProps {
     paddingR?: ViewStyle['paddingRight'];
     paddingH?: ViewStyle['paddingHorizontal'];
     paddingV?: ViewStyle['paddingVertical'];
+
+    border?: ViewStyle['borderRadius'];
+    borderColor?: ViewStyle['borderColor'];
+    borderWidth?: ViewStyle['borderWidth'];
+
+    pos?: ViewStyle['position'];
+    top?: ViewStyle['top'];
+    bot?: ViewStyle['bottom'];
+    right?: ViewStyle['right'];
+    left?: ViewStyle['left'];
+
+    overflow?: ViewStyle['overflow'];
+
+    shadow?: boolean;
+
     style?: StyleProp<ViewStyle>
 }
